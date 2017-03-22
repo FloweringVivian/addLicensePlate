@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*添加车牌*/
+.car-add{padding: 4rem 1rem;}
+.car-add .add-input{width: 100%;border: 1px solid #97825c;border-radius: 5px;height: 3.5rem;overflow: hidden;}
+.car-add .add-input span{float: left;border: 0;width: 14.28%;height: 3.5rem;line-height: 3.5rem;font-size: 1.3rem;color: #423621;text-align: center;border-right: 1px solid #97825c;}
+.car-add .add-input span:last-child{border: 0;}
+.car-add .add-input span.active{background: #f8eedb;}
+.car-add p{text-align: center;font-size: 1.1rem;padding: .8rem 0 6.5rem 0;}
+.car-add .add-btn{padding: 0 .3rem;}
+.car-add .add-btn input{width: 100%;height: 3.2rem;line-height: 3.2rem;border: 0;border-radius: 5px;background-color: #97825c;color: #fff;font-size: 1.2rem;}
+.car-add .add-mes{padding-bottom: .5rem;}
+.car-add .add-mes li{border-bottom: 1px solid #bda477;padding-bottom: 1rem;margin-bottom: 2rem;height: 1.8rem;line-height: 1.8rem;}
+.car-add .add-mes li span{float: left;width: 3.3rem;height: 1.8rem;background-repeat: no-repeat;background-position: .5rem center;background-size: 1.8rem 100%;}
+.car-add .add-mes li span.add-username{background-image: url(../images/my/add-username.png);}
+.car-add .add-mes li span.add-phone{background-image: url(../images/my/add-phone.png);}
+.car-add .add-mes li span.add-code{background-image: url(../images/my/add-code.png);}
+.car-add .add-mes li input[type="text"]{float: left;border: 0;background: #fff;width: calc(100% - 3.3rem);height: 1.4rem;line-height: 1.4rem;margin-top: .2rem;padding-left: 1rem;border-left: 1px solid #bda477;color: #97825c;font-size: 1.2rem;border-radius: 0;}
+.car-add .add-mes li:nth-child(3) input[type="text"]{width: calc(100% - 13.5rem);}
+.car-add .add-mes li:nth-child(3) input[type="button"]{float: right;font-size: 1.2rem;color: #423621;border: 0;background: #fff;border-left: 1px solid #bda477;height: 1.4rem;line-height: 1.4rem;margin-top: .2rem;text-align: center;padding-left: .5rem;border-radius: 0;}
+.car-add-vip{padding-top: 3rem;}
+.car-add .add-mes li:nth-child(3) input[type="button"].disabled{color: #B3B2B0;}
+.car-add-vip p{padding-bottom: 3rem;}
+
+/*添加车牌弹层*/
+.add-layer{position: fixed;left: 0;bottom: 0;z-index: 99;width: 100%;background-color: #fff;border-top: 1px solid #cacaca;font-size: 1.3rem;-webkit-transform: translateY(100%);transform: translateY(100%);-webkit-transition: all .3s ease-in-out;transition: all .3s ease-in-out;}
+.add-layer.in{-webkit-transform:translateY(0); transform:translateY(0);-webkit-transform:translateX(0); transform:translateX(0);}
+.add-layer h3{text-align: right;color: #44a7de;height: 3rem;line-height: 3rem;}
+.add-layer h3 span{display: inline-block;padding: 0 1rem;}
+.add-layer ul{background-color: #d1d4d9;padding: .3rem 0;}
+.add-layer li{float: left;padding: .4rem .2rem;}
+.add-layer1 li{width: 11.11%;}
+.add-layer2 li{width: 10%;}
+.add-layer li a{display: block;background-color: #fff;text-align: center;color: #454545;height: 3rem;line-height: 3rem;border-radius: 5px;}
+
+
+
+        
+
+
+
+
+
